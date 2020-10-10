@@ -18,7 +18,7 @@ const AboutMe = () => {
                     rem iure, accusamus perferendis, porro
                     facilis sapiente nihil non veniam laboriosam doloribus esse, eos itaque nostrum.
                     </h2>  </div>
-                <button className={aboutMeStyles.button}><h3>Learn More</h3></button>
+                <button className={aboutMeStyles.button}><h3>Contact Me</h3></button>
                 <div style={{ display: "flex", justifyContent: "space-evenly" }}>
                     <img src={mail} alt="mail" />
                     <img src={github} alt="github" />
