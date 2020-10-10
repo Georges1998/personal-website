@@ -8,16 +8,16 @@ const Home = () => {
     return (
         <div className={homeStyles.home}>
             <div className={homeStyles.grid}>
-                <div style={{ overflow: "hidden" }}>
-                    <div style={{ zIndex: "1", position: "absolute", left: "50px", top: "25%", width: "40%" }}>
+                <div style={{ overflow: "hidden", height:"100%" }}>
+                    <div className={homeStyles.welcome}>
                         <h1>Hello my name is George Kandalaft</h1>
                         <h2>A Software Developer and a Designer</h2>
                         <button><h3>Learn More</h3></button>
                         {/* <div className={homeStyles.button}>Learn More</div> */}
                     </div>
-                    <img src={Rect} alt="rectangular" style={{ position: "relative", top: "10px", right: "10px", zIndex: "0", height: "100%" }} />
+                    <img src={Rect} alt="rectangular" className={homeStyles.rect} />
                 </div>
-                <img alt="guy" src={Guy} />
+                <img alt="guy" src={Guy} className={homeStyles.guy} />
             </div>
             <div className={homeStyles.rect}>
 

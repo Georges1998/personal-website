@@ -6,9 +6,11 @@
   justify-content: center;
   background-color: white;
   h1 {
-    padding: 20px 3vw;
+    font-size: 1rem;
+    font-size: 3vw;
+    padding: 2.5% 3vw;
   }
-  h1:hover{
-      cursor: pointer;
+  h1:hover {
+    cursor: pointer;
   }
 }

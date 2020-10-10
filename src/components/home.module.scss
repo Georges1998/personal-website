@@ -20,10 +20,12 @@
     line-height: 8vmin;
   }
   img {
-    width: 100%;
     align-self: stretch;
     position: relative;
   }
+}
+.guy {
+  width: 100%;
 }
 .button {
   width: 60%;
@@ -50,10 +52,10 @@ button {
   font-weight: lighter;
   border: white solid 1px;
   min-width: 30%;
-  color: #2F2E41;
+  color: #2f2e41;
   // box-shadow: 3px 3px 2px 2px #aaaaaa63;
   border-radius: 100px;
-  min-height: 60px;
+  min-height: 30px;
   background-color: white;
 }
 
@@ -69,5 +71,48 @@ button:hover {
 .rect {
   position: absolute;
   top: 0;
+  width: 100%;
+}
+.welcome {
+  z-index: 1;
+  position: absolute;
+  left: 50px;
+  top: 25%;
   width: 40%;
+}
+.home {
+    height: 70vh;
+}
+.rect {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  z-index: 0;
+  height: 100%;
+}
+@media screen and (max-width: 600px) {
+  .grid {
+    display: inline;
+  }
+  .guy {
+    display: none;
+    width: 1px;
+  }
+  .welcome {
+    grid-row-start: 2;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    justify-self: center;
+  }
+  .rect {
+    position: absolute;
+    height: 100%;
+    width: 470px;
+    top: 0;
+    right: 0;
+  }
 }
