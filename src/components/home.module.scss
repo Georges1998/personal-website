@@ -37,6 +37,10 @@
   text-align: center;
   padding: 10%;
 }
+button:focus{
+    border: none;
+    outline: none;
+}
 button {
   margin-top: 0;
   h3 {
