@@ -55,7 +55,7 @@ button {
   color: #2f2e41;
   // box-shadow: 3px 3px 2px 2px #aaaaaa63;
   border-radius: 100px;
-  min-height: 30px;
+  min-height: 50px;
   background-color: white;
 }
 
@@ -80,9 +80,7 @@ button:hover {
   top: 25%;
   width: 40%;
 }
-.home {
-    height: 70vh;
-}
+
 .rect {
   position: relative;
   top: 10px;
@@ -91,6 +89,9 @@ button:hover {
   height: 100%;
 }
 @media screen and (max-width: 600px) {
+  .home {
+    height: 60vh;
+  }
   .grid {
     display: inline;
   }
@@ -107,6 +108,20 @@ button:hover {
     width: 100%;
     text-align: center;
     justify-self: center;
+    h1 {
+      text-align: left;
+      padding-left: 2%;
+    }
+    h2 {
+      text-align: left;
+      padding-left: 2%;
+    }
+    button {
+      position: relative;
+      left: 25%;
+      top: 5%;
+      min-height: 30px;
+    }
   }
   .rect {
     position: absolute;
