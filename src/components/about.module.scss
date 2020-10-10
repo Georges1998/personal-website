@@ -1,0 +1,25 @@
+.aboutMe {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+.decoration {
+  position: relative;
+  right: 5%;
+  z-index: 0;
+}
+.card {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  box-shadow: -3px 3px 2px 2px #aaaaaa34;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.image {
+  width: 100%;
+}

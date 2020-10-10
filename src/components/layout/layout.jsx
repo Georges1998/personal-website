@@ -1,19 +1,17 @@
 import React from 'react'
 import Footer from "./footer"
-import Home from "./home"
+import Home from "./../home"
+import AboutMe from "./../aboutMe"
 import Header from './header'
 import Title from './title'
-function Welcome(props) {
-    return <h1>Hello, {props.name}</h1>;
-}
+
 const Layout = () => {
     return (
         <div>
             <Header />
             <Home />
-            {/* { props.children} */}
-            {/* <Welcome name="Sara" /> */}
-            <Title name="About Me" /> 
+            <Title name="About Me" />
+            <AboutMe />
             <Footer />
         </div>
     )
