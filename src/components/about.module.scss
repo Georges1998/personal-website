@@ -57,7 +57,7 @@ button:hover {
 @media screen and (max-width: 600px) {
   .card {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
     gap: 5%;
     overflow: hidden;
   }
@@ -72,13 +72,12 @@ button:hover {
     justify-self: stretch;
 
     display: inherit;
-    grid-template-rows: 2fr 1fr 1fr;
+    // grid-template-rows: 2fr 1fr 1fr;
+
+    grid-template-rows: 50% 20% 20%;
   }
-  .description {
-    grid-template-rows: 40% 20% 20%;
-  }
-  .button{
-      height: 30px;
+  .button {
+    height: 30px;
   }
   .aboutMeText {
     align-self: flex-start;
