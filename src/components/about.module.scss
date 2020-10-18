@@ -58,7 +58,7 @@ button:hover {
   .card {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 5%;
+    // gap: 5%;
     overflow: hidden;
   }
   .image {
@@ -74,10 +74,11 @@ button:hover {
     display: inherit;
     // grid-template-rows: 2fr 1fr 1fr;
 
-    grid-template-rows: 50% 20% 20%;
+    grid-template-rows: 44% 20% 20%;
+    gap: 2%;
   }
   .button {
-    height: 30px;
+    height: 20px;
   }
   .aboutMeText {
     align-self: flex-start;

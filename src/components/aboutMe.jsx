@@ -10,7 +10,11 @@ import React from "react"
 
 const AboutMe = () => {
     return <div className={aboutMeStyles.aboutMe}>
-        <div className={aboutMeStyles.decoration}><img src={Leaf} alt="leaf" style={{ width: "25vw" }} /></div>
+        <div className={aboutMeStyles.decoration}><img src={Leaf} alt="leaf" style={{ width: "25vw" }}
+            data-sal-delay="400"
+            data-sal-easing="ease"
+            data-sal-duration="1500"
+            data-sal="slide-right" /></div>
         <div className={aboutMeStyles.card}>
             <div className={aboutMeStyles.description}>
                 <div className={aboutMeStyles.aboutMeText}>
@@ -28,7 +32,10 @@ const AboutMe = () => {
             </div>
             <img src={Me} alt="personal" className={aboutMeStyles.image} />
         </div>
-        <div className={aboutMeStyles.decoration}><img src={Leaf2} alt="leaf" style={{ width: "100%" }} /></div>
+        <div className={aboutMeStyles.decoration}><img src={Leaf2} alt="leaf" style={{ width: "100%" }} data-sal-delay="400"
+            data-sal-easing="ease"
+            data-sal-duration="1500"
+            data-sal="slide-left" /></div>
     </div>
 }
 
