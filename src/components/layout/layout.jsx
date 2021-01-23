@@ -1,17 +1,19 @@
 import React from 'react'
 import Footer from "./footer"
-import Home from "./../home"
-import AboutMe from "./../aboutMe"
-import Header from './header'
-import Title from './title'
+// import Home from "./../home"
+// import AboutMe from "./../aboutMe"
+// import Header from './header'
+// import Title from './title'
+import Tbd from './tbd'
 
 const Layout = () => {
     return (
         <div>
-            <Header />
+            {/* <Header />
             <Home />
             <Title name="About Me" />
-            <AboutMe />
+            <AboutMe />*/}
+            <Tbd />
             <Footer />
         </div>
     )
