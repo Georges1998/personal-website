@@ -5,7 +5,7 @@ const Tbd = () => {
     return (
         <div className={layoutStyles.tbd}>
             <h1>
-                TBD
+                COMING SOON...
             </h1>
         </div>
     )
